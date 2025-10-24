@@ -23,8 +23,8 @@ python-magic==0.4.27
 # Payments
 stripe==11.1.0
 
-# E-signature
-docusign-esign==3.29.0
+# E-signature (optional - commented out for now)
+# docusign-esign==3.29.0
 # hellosign-python-sdk==3.8.14  # Alternative option
 
 # Task Queue
