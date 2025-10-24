@@ -1,0 +1,46 @@
+# FastAPI and ASGI server
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic[email]==2.9.0
+pydantic-settings==2.6.0
+email-validator==2.2.0
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.12
+
+# Storage & File handling
+boto3==1.35.0
+python-magic==0.4.27
+
+# Payments
+stripe==11.1.0
+
+# E-signature
+docusign-esign==3.29.0
+# hellosign-python-sdk==3.8.14  # Alternative option
+
+# Task Queue
+celery==5.4.0
+redis==5.2.0
+
+# HTTP client
+httpx==0.27.0
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==9.0.0
+
+# Development
+pytest==8.3.0
+pytest-asyncio==0.24.0
+black==24.10.0
+ruff==0.7.0
+mypy==1.13.0
